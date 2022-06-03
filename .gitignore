@@ -16,7 +16,7 @@ cache
 vendor/
 dist
 data
-node_modules
+node_modules/
 packages/*/node_modules
 packages/*/data
 docs/public/*.st
