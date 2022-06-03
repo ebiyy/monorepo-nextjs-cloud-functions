@@ -4,6 +4,12 @@
     "packages/*",
     "apps/*"
   ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
   "devDependencies": {
     "turbo": "^1.2.16"
   }
